@@ -53,7 +53,7 @@ class BondPlatform {
         accessory
             .addService(Service.Fan, device.room + " " + device.type);
         accessory
-            .addService(Service.StatelessProgrammableSwitch, "Light Button " + device.room + " " + device.type);
+            .addService(Service.Switch, "Light Button " + device.room + " " + device.type);
         this.setupObservers(accessory);
         accessory
             .getService(Service.AccessoryInformation)
