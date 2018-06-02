@@ -51,9 +51,9 @@ class BondPlatform {
         accessory.context.device = device;
         accessory.reachable = true;
         accessory
-            .addService(Service.Fan, device.name);
+            .addService(Service.Fan, device.room + " Fan");
         accessory
-            .addService(Service.Switch, device.name + " Light");
+            .addService(Service.Switch, device.room + " " + device.type + " Light");
         this.setupObservers(accessory);
         accessory
             .getService(Service.AccessoryInformation)
