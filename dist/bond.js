@@ -30,6 +30,7 @@ class Bond {
                 id: objs[0].id,
                 type: objs[0].device_type,
                 room: objs[0].location_type,
+                name: objs[0].device_name,
                 propertyId: objs[0].device_property_id,
                 commands: commands,
                 bondId: this.id,
