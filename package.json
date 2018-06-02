@@ -27,6 +27,7 @@
     "homebridge": ">=0.2.0"
   },
   "devDependencies": {
+    "@types/node": "^10.3.0",
     "@types/request-promise": "^4.1.41",
     "rimraf": "^2.6.2",
     "typescript": "^2.7.1"
