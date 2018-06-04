@@ -14,7 +14,7 @@ For now you can control the fan speed and lights (on/off no dimming yet)
 # Removal
 1. Stop homebridge.
 2. Remove configuration in `config.json`.
-3. Start homebridge (the plugin will remove cached accessories automatically).
+3. Start homebridge.
 4. Remove this plugin using `npm remove -g homebridge-bond`.
 5. Restart homebridge.
 
